@@ -1,5 +1,7 @@
 # Serenity BDD - Pruebas Automatizadas
 
+![CI](https://github.com/mizunie/prueba-serenity-8/actions/workflows/tests.yml/badge.svg)
+
 ## 📋 Descripción
 
 Este proyecto contiene pruebas automatizadas utilizando Serenity BDD con Java, JUnit 5 y Selenium WebDriver sobre el sitio de pruebas OpenCart.
@@ -19,8 +21,8 @@ Este proyecto contiene pruebas automatizadas utilizando Serenity BDD con Java, J
 1. Clonar el repositorio:
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/mizunie/prueba-serenity-8.git
+cd prueba-serenity-8
 ```
 
 ---
