@@ -66,7 +66,7 @@ Abrir el archivo en el navegador para visualizar resultados detallados.
 ## 🧪 Estructura del proyecto
 
 ```
-src/test/java/com/tuempresa/
+src/test/java/com/ejemplo/
 ├── pages/     → Page Objects
 └── tests/     → Casos de prueba
 
