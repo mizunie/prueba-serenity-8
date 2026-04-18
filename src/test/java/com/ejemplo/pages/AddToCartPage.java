@@ -62,9 +62,13 @@ public class AddToCartPage extends PageObject {
   }
 
   public void waitForCartCount(int count) {
-    waitForCondition().until(d ->
-      $("#cart-total").getText().contains("2 item")
-    );
+    waitForCondition().until(d -> {
+      try {
+        return $("#cart-total").getText().contains(count + " item");
+      } catch (org.openqa.selenium.StaleElementReferenceException e) {
+        return false;
+      }
+    });
   }
 
   public String getCartTotalText() {
